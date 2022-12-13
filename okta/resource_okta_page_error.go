@@ -25,7 +25,7 @@ func resourcePageError() *schema.Resource {
 			"page_content": {
 				Type:        schema.TypeString,
 				Optional:    true,
-				Description: "HTML template of the sign-in page",
+				Description: "HTML template of the error page",
 			},
 		},
 	}
